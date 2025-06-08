@@ -100,3 +100,63 @@ nav a:hover {
     text-align: center;
     border-radius: 8px;
 }
+
+/* For the Info Section */
+.info-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.info-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    max-width: 200px;
+}
+
+.info-box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    margin: 0 auto 20px;
+}
+
+.info-item p {
+    color: #374151;
+    font-size: 16px;
+}
+
+/* For the Quote Section */
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 80px 20%;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+cite {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    display: block;
+    text-align: right;
+}
